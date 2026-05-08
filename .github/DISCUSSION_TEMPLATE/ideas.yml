@@ -1,0 +1,36 @@
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share a prompt, an image, multiple effect images, links, or a loose idea.
+
+        This is a lightweight intake channel. Prompt Garden may review, rewrite, abstract, or ignore submissions. Accepted content is curated manually in the private Prompt Garden source.
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Submission
+      description: Paste prompt text, describe images, add links, or drag images into the editor after the discussion page opens.
+      placeholder: |
+        Paste a prompt, describe the image/style, add links, or explain the reusable idea.
+
+        You can also attach one or more images directly in the GitHub editor.
+    validations:
+      required: false
+  - type: input
+    id: model-tool
+    attributes:
+      label: Model or tool
+      description: Optional. Example: Midjourney, Seedream, ChatGPT, Claude, Stable Diffusion.
+      placeholder: Optional
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional. Anything useful for curation, such as what worked, what failed, or what you want this to become.
+      placeholder: Optional
+    validations:
+      required: false
